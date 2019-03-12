@@ -1,0 +1,8 @@
+.button{
+"-fx-background-color: rgb(130,194,217);
+-fx-font-size: 16px;
+    -fx-text-fill: #FFFFFF
+}
+.textfield{
+    -fx-background-color: rgb(222,221,221)
+}

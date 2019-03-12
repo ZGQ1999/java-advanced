@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import com.soft1841.oop.week1.sample1.Label2?>
+<?import com.soft1841.oop.week1.sample1.Arrow?>
+<?import com.soft1841.oop.week1.sample1.Label5?>
+<?import javafx.scene.shape.Line?>
+<?import com.soft1841.oop.week1.sample1.Label2?>
+<?import com.soft1841.oop.week1.sample1.MyButton?>
+<?import com.soft1841.oop.week1.sample1.MyTextField?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.oop.week1.sample1.Controller"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <AnchorPane>
+        <MyButton styleClass="button"  text ="点击进入" AnchorPane.leftAnchor="350" AnchorPane.topAnchor="150"/>
+        <ImageView   >
+            <Image  url="/img/top.png"/>
+        </ImageView>
+        <MyTextField   styleClass="textfield" text="            学会UMU" AnchorPane.topAnchor="130" AnchorPane.leftAnchor="300"/>
+        <Label2 text="学习任务                              学习群                                学习笔记                          报名课程  " AnchorPane.leftAnchor="120" AnchorPane.topAnchor="300"/>
+        <ImageView  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="100">
+            <Image  url="/img/0.jpg"/>
+        </ImageView>
+        <ImageView  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="280">
+            <Image  url="/img/1..jpg"/>
+        </ImageView>
+        <ImageView  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="450">
+            <Image  url="/img/2.jpg"/>
+        </ImageView>
+        <ImageView  AnchorPane.topAnchor="200"  AnchorPane.leftAnchor="600">
+            <Image  url="/img/3.jpg"/>
+        </ImageView>
+
+        <ImageView  AnchorPane.topAnchor="335"  AnchorPane.leftAnchor="50">
+            <Image  url="/img/44.jpg"/>
+        </ImageView>
+        <ImageView  AnchorPane.topAnchor="335"  AnchorPane.rightAnchor="70">
+            <Image  url="/img/55.jpg"/>
+        </ImageView>
+    </AnchorPane  >
+    <Arrow  AnchorPane.bottomAnchor="45" AnchorPane.leftAnchor="20">
+        <Image   url="/img/00.jpg"/>
+    </Arrow>
+    <Arrow  AnchorPane.bottomAnchor="45" AnchorPane.leftAnchor="250">
+        <Image   url="/img/11.jpg"/>
+    </Arrow>
+    <Arrow  AnchorPane.bottomAnchor="45" AnchorPane.rightAnchor="250">
+        <Image   url="/img/22.jpg"/>
+    </Arrow>
+    <Arrow  AnchorPane.bottomAnchor="45" AnchorPane.rightAnchor="20">
+        <Image   url="/img/33.jpg"/>
+    </Arrow>
+    <Line     AnchorPane.topAnchor="330" startY="50.0" endX="1400" endY="50"/>
+    <Label5   text=" 首页                                 课程                                        发现                                  个人主页"   style="-fx-font-size: 18px" AnchorPane.leftAnchor="20" AnchorPane.bottomAnchor="10"/>
+</AnchorPane>
+
+

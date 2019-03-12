@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BMI:jar3">
+    <output-path>$PROJECT_DIR$/out/artifacts/BMI_jar3</output-path>
+    <root id="archive" name="BMI.jar">
+      <element id="module-output" name="BMI" />
+    </root>
+  </artifact>
+</component>

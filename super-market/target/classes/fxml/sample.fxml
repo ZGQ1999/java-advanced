@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.sm.Controller.Controller"
+            prefHeight="400.0" prefWidth="600.0">
+
+
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+
+            <Button layoutX="68.0" layoutY="143.0" mnemonicParsing="false" text="账号" />
+            <Label layoutX="170.0" layoutY="67.0" prefHeight="41.0" prefWidth="258.0" text="           超市登录系统">
+                <font>
+                    <Font size="20.0" />
+                </font>
+            </Label>
+            <Button layoutX="68.0" layoutY="243.0" mnemonicParsing="false" text="密码" />
+            <Label layoutX="176.0" layoutY="149.0" prefHeight="30.0" prefWidth="229.0" text="12345667" />
+            <Label layoutX="170.0" layoutY="243.0" prefHeight="30.0" prefWidth="212.0" text="987456" />
+            <Button layoutX="218.0" layoutY="329.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="146.0" text="登录" />
+        </children>
+    </AnchorPane>
+
+
+</AnchorPane>
